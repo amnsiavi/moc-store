@@ -298,6 +298,7 @@ function AddToCartButton({analytics, children, disabled, lines, onClick}) {
           />
           <button
             type="submit"
+            className="text-white border border-solid bg-blue-500 rounded-lg p-4"
             onClick={onClick}
             disabled={disabled ?? fetcher.state !== 'idle'}
           >
